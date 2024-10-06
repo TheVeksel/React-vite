@@ -4,4 +4,4 @@ import './styles.scss'
 
 const root = document.getElementById('root')
 
-ReactDom.createRoot(root).render(<App />)
+ReactDom.createRoot(root).render(<App />) 

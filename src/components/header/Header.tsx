@@ -25,7 +25,7 @@ export default function Header(): JSX.Element {
 
   return (
     <StyledHeader>
-      <img src={logo} alt="logo" />
+      <p className="header-text">University</p>
       <span className="header__time">Time: {now.toLocaleTimeString()}</span>
     </StyledHeader>
   );
